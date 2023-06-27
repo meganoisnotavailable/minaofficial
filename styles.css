@@ -1,0 +1,142 @@
+/* matrer styles*/
+.body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+}
+
+/*nav styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: rgb(109, 90, 109);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+
+.nav-link-wrapper a:hover {
+    color: rgb(26, 22, 26);
+}
+
+/*portfolio styles*/
+
+.portfolio-items-wrapper {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 100%;
+    width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(231, 191, 231);
+}
+
+
+body { 
+    margin:0;
+    font-family: 'Itim', cursive;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* content*/
+
+.photo-link-wrapper {
+    display: flex;
+}
+
+.photo-link-wrapper a {
+    width: 336px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.15s;
+}
+
+button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+
+
+
